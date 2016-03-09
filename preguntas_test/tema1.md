@@ -1,7 +1,7 @@
 
-## Preguntas Tema1
+# Preguntas Tema1
 <pregunta1>
-  <enunciado>1. En el desarrollo de un sitio web lo primero hacemos es :</enunciado>
+  <enunciado> ## 1. En el desarrollo de un sitio web lo primero hacemos es :</enunciado>
   <opcionA>implementar código</opcionA>
   <opcionB>planificar la arquitectura del sistema, calcular su carga y la disponibilidad</opcionB>
   <opcionC>Disponer de una granja web.</opcionC>
