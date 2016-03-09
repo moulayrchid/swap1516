@@ -13,3 +13,15 @@
 
 *RESPUESTA CORRECTA*: **D**
 
+## 2. La capacidad para dar soporte a un número creciente de usuarios es:
+
+**a)** Una granja web.
+##
+**b)** Sinónimo de disponibilidad.
+##
+**c)** Un sitio web mal planificado.
+##
+**d)** Sinonimo de escalabilidad.
+
+*RESPUESTA CORRECTA*: **D**
+
