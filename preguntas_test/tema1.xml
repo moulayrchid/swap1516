@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 1: Introducción, Conceptos Basicos" >
+
+<pregunta>
+  <enunciado>A la hora de planificar una granja web tenemos que tener en cuenta:</enunciado>
+  <opcionA>los puntos débiles en el sistema</opcionA>
+  <opcionB>el tipo de red</opcionB>
+  <opcionC>la configuración de los proxys y los cortafuegos</opcionC>
+  <opcionD>todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>La capacidad para dar soporte a un número creciente de usuarios es:</enunciado>
+  <opcionA>Una granja web</opcionA>
+  <opcionB>Sinónimo de disponibilidad</opcionB>
+  <opcionC>Un sitio web mal planificado</opcionC>
+  <opcionD>Sinonimo de escalabilidad</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+</tema>
