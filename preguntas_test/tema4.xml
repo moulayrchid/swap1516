@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 4:Balanceo de carga  " >
+
+<pregunta>
+  <enunciado>Cual de estas tareas no puede realizar un balanceador de carga:</enunciado>
+  <opcionA>proteger de diversos ataques</opcionA>
+  <opcionB>levantar los servicios caidos</opcionB>
+  <opcionC>comprobar la disponibilidad de los servidores</opcionC>
+  <opcionD>derivar en función del tipo de tráfico</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>cual son las ventajas de una granja web con balanceo de carga:</enunciado>
+  <opcionA>mejora la seguridad</opcionA>
+  <opcionB>mejora la escalabilidad/disponiblidad</opcionB>
+  <opcionC>facilita el mantenimiento</opcionC>
+  <opcionD>todas las anteriores</opcionD>
+  <solucion>D</solucion>
+</pregunta>
