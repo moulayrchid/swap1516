@@ -1,0 +1,22 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 3: La red de una granja web " >
+
+<pregunta>
+  <enunciado>Para que el servidor web ofrezca unas prestaciones optimas.que caracteristica es necesaria:</enunciado>
+  <opcionA>Disponer de un buen ancho de banda de conexión a Internet</opcionA>
+  <opcionB>Poder filtrar y bloquear paquetes</opcionB>
+  <opcionC>Balancear la carga entre los servidores</opcionC>
+  <opcionD>Todas son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>El uso de NAT en la granja web es:</enunciado>
+  <opcionA>Un factor importante para garantizar la calidad del servicio y su seguridad</opcionA>
+  <opcionB>Un factor para que el cortafuegos sea un posible cuello de botella</opcionB>
+  <opcionC>Un factor de disponibilidad</opcionC>
+  <opcionD>Ninguna es correcta</opcionD>
+  <solucion>A</solucion>
+</pregunta>
