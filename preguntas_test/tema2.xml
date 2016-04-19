@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 2: Alta disponibiliad y escalabilidad" >
+
+<pregunta>
+  <enunciado>Se consigue la alta disponibilidad en la red teniendo redundancia en:</enunciado>
+  <opcionA>conexión a internet</opcionA>
+  <opcionB>todas las anteriores</opcionB>
+  <opcionC>routers/cortafuegos/balanceadores</opcionC>
+  <opcionD>servidores</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>de entre estoy componentes hardware cual es el mas susceptible de fallar antes</enunciado>
+  <opcionA>CPU</opcionA>
+  <opcionB>RAM</opcionB>
+  <opcionC>fuente de alimentación</opcionC>
+  <opcionD>placa base</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+</tema>
