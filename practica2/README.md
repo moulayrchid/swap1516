@@ -11,7 +11,7 @@
 # 2 Crear un tar con ficheros locales en un equipo remoto
 
 ## Estructura de  maquinas:
-numero de la maquina|Nombre de la maquina | Dirección IP
+Nombre de la maquina | Dirección IP
 -----------| -------------
 Maquina1 |172.16.76.128
 Maquina2 |172.16.76.130
