@@ -18,8 +18,8 @@ Maquina2 | Ubuntuserver2 | 172.16.76.130
 
 `tar czf - directorio | ssh equipodestino 'cat > ~/tar.tgz'
 
-![imagen1]()
-![imagen2]()
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/pract1-imagen1.png)
+![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica2/rseult.png)
 
 # 3 Instalar la herramienta rsync
 
@@ -32,8 +32,9 @@ rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 
 **pero antes de eso muestro imagen de contenido de maquina 1 y maquina 2 antes de ejecutar comando y despues muestro resultado de maquina 2**
 
-![imagen3]()
-![imagen4]()
+![imagen3](https://github.com/moulayrchid/swap1516/blob/master/practica2/maquina1.html.png)
+![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica2/maquina2.html.png)
+![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica2/ejecucion-comando.png)
 
 
 
