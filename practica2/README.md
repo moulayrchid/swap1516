@@ -61,15 +61,21 @@ Para realiza una copia de seguridada de la carpeta /var/www/ de la máquina 1 en
 
 también podemos  crear un script(backup.sh) como :
 
+```sh
 #! /bin/bash
 
-rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
+rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/
 
-Darle permisos de ejecucion chmod +x backup.sh
+```
+
+Darle permisos de ejecucion `chmod +x backup.sh`
 
 Editar el crontab como sigue:
 
+```
 00-59 * * * * root cd / && ./backup.sh
+```
+
 
 
 
