@@ -30,7 +30,7 @@ Maquina2 |172.16.76.130
 
 rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 
-**pero antes de eso muestro imagen de contenido de maquina 1 y maquina 2 antes de ejecutar comando y despues muestro resultado de maquina 2**
+**pero antes de eso muestro imagen de contenido de máquina 1 y máquina 2 antes de ejecutar comando y despues muestro resultado de máquina 2**
 
 ![imagen3](https://github.com/moulayrchid/swap1516/blob/master/practica2/maquina1.html.png)
 ![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica2/maquina2.html.png)
@@ -39,7 +39,7 @@ rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 
 # 4 Acceso sin contraseña para ssh
 
-Lo primero es generar la clave del tipo dsa en la maquina 2 con ssh-keygen, Después comprobamos si la clave generada tiene los permisos de forma correcta, en mi caso no hace falta cambiarlos, Una forma segura de copiar la clave en la maquina 1 es usando el comando:
+Lo primero es generar la clave del tipo dsa en la máquina 2 con ssh-keygen, Después comprobamos si la clave generada tiene los permisos de forma correcta, en mi caso no hace falta cambiarlos, Una forma segura de copiar la clave en la máquina 1 es usando el comando:
 
 shh-copy-id -i .ssh/_dsa.pub root@172.16.76.128
 
@@ -49,7 +49,32 @@ Para comprobar si todo ha ido bien solicito entrar a la maquina 1 via ssh sin pr
 
 ![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/ssh2)
 
-Como se puede apreciar en la foto he tenido acceso a la maquina1 desde la maquina2 y no se me ha solicitado ninguna clave
+Como se puede apreciar en la foto he tenido acceso a la máquina1 desde la máquina2 y no se me ha solicitado ninguna clave
+
+#  5. Programar tareas con crontab
+
+Para realiza una copia de seguridada de la carpeta /var/www/ de la máquina 1 en la máquina 2 hay que editar el archivo /etc/contab añadiendo la linea :
+
+*/1 * * * * root rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
+
+![imagen1]()
+
+también podemos  crear un script(backup.sh) como :
+
+#! /bin/bash
+
+rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
+
+Darle permisos de ejecucion chmod +x backup.sh
+
+Editar el crontab como sigue:
+
+00-59 * * * * root cd / && ./backup.sh
+
+
+
+
+
 
 
 
