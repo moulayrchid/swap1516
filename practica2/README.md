@@ -26,7 +26,7 @@ Maquina2 |172.16.76.130
  rsync ya venia instalado en la distribución pero si tuviera que instalarlo solo tendria que ejecutar el comando:
 `sudo apt-get install rsync`
 
-# Para clonar la carpeta /var/www/ de la maquina 1 en la maquina 2 ejecuto el comando:
+## Para clonar la carpeta /var/www/ de la maquina 1 en la maquina 2 ejecuto el comando:
 
 rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 
@@ -35,6 +35,11 @@ rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 ![imagen3](https://github.com/moulayrchid/swap1516/blob/master/practica2/maquina1.html.png)
 ![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica2/maquina2.html.png)
 ![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica2/ejecucion-comando.png)
+
+
+# 4 Acceso sin contraseña para ssh
+
+
 
 
 
