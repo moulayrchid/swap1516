@@ -1,12 +1,12 @@
 
 # Práctica 2. Clonar la información de un sitio web
 
-## 1 Objetivos de la práctica
-## Los objetivos concretos de esta segunda práctica son:
-## **aprender a copiar archivos mediante ssh**
-## **clonar contenido entre máquinas**
-## **configurar el ssh para acceder a máquinas remotas sin contraseña**
-## **establecer tareas en cron**
+ 1 Objetivos de la práctica  
+ Los objetivos concretos de esta segunda práctica son:  
+ aprender a copiar archivos mediante ssh**  
+ clonar contenido entre máquinas**  
+ configurar el ssh para acceder a máquinas remotas sin contraseña**  
+ establecer tareas en cron**  
 
 # 2 Crear un tar con ficheros locales en un equipo remoto
 
@@ -49,7 +49,7 @@ Para comprobar si todo ha ido bien solicito entrar a la maquina 1 via ssh sin pr
 
 ![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/ssh2)
 
-## Como se puede apreciar en la foto he tenido acceso a la maquina1 desde la maquina2 y no se me ha solicitado ninguna clave
+Como se puede apreciar en la foto he tenido acceso a la maquina1 desde la maquina2 y no se me ha solicitado ninguna clave
 
 
 
