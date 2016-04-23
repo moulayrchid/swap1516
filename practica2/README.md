@@ -57,7 +57,7 @@ Para realiza una copia de seguridada de la carpeta /var/www/ de la máquina 1 en
 
 */1 * * * * root rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 
-![imagen1]()
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/editarcrontab.png)
 
 también podemos  crear un script(backup.sh) como :
 
