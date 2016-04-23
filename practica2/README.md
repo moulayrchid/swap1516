@@ -39,9 +39,17 @@ rsync -avz -e ssh root@172.16.76.128:/var/www/ /var/www/
 
 # 4 Acceso sin contraseña para ssh
 
+Lo primero es generar la clave del tipo dsa en la maquina 2 con ssh-keygen, Después comprobamos si la clave generada tiene los permisos de forma correcta, en mi caso no hace falta cambiarlos, Una forma segura de copiar la clave en la maquina 1 es usando el comando:
 
+shh-copy-id -i .ssh/_dsa.pub root@172.16.76.128
 
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/ssh1)
 
+Para comprobar si todo ha ido bien solicito entrar a la maquina 1 via ssh sin proporcionar clave:
+
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/ssh2)
+
+## Como se puede apreciar en la foto he tenido acceso a la maquina1 desde la maquina2 y no se me ha solicitado ninguna clave
 
 
 
