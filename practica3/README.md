@@ -80,9 +80,17 @@ Para hacer la conexión persistente edito el archivo de configuración poniendo 
 
 Un ejemplo de configuración seria el que sigue
 
-![imagen10](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen11.png)
+![imagen11](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen11.png)
 
 Tenemos 3 servidores el primero con un peso 3, El segundo con un peso 2 ademas si devuelve 2 fallos de petición en un intervalo de 15 segundos se marcara como no disponible, El tercer servidor es el mismo balanceador escuchando por el puerto 8080 ya que el 80 lo usa nginx y esta marcado como backup por lo que no se le mandara peticiones hasta que los otros 2 no estén disponibles. En location ponemos health_check de manera que vaya preguntando el estado a los servidores cada 60 segundos y en caso que falle 3 veces la repuesta de algún servidor lo marque como no disponible.
+
+# 4. Balanceo de carga con haproxy
+
+## 4.1. Instalar haproxy
+Primero paramos nginx y luego instalamos haproxy  
+apt-get install haproxy
+
+![imagen12](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen12.png)
 
 
 
