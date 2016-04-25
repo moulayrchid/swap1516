@@ -35,7 +35,7 @@ en esta maquina vemos como Apache no esta en ejecución
 El proceso de instalación en Ubuntu se basa en el uso de apt-get. Lo primero que  
 debemos hacer es importar la clave del repositorio de software:  
 
-![imagen2]()
+![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen2.png)
 
 
 
