@@ -101,10 +101,13 @@ lo primero guardo una copia de seguridad del la configuracion por defecto sudo m
 
 ![imagen13](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen13.png)
 
+## 4.3. Comprobar el funcionamiento del balanceador
 
+Una vez guardada la configuración ejecuto el comando 
+sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg 
+y como no da salido ningun mensaje de error hago solicitudes http al balanceador, como se puede observar hace balanceo round-robin
 
-
-
+![imagen14](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen14.png)
 
 
 
