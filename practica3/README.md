@@ -51,7 +51,9 @@ Creo el archivo /etc/nginx/conf.d/default.conf
 
 Configuramos el archivo
 
-![imagen4]()
+![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen5.png)
+
+
 
 
 
