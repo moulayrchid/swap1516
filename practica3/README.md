@@ -68,7 +68,9 @@ los resultados que salen se ajustan a lo comentado anteriormente
 
 ![imagen8](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen8.png)
 
+Para hacer que todo el trafico proveniente del mismo IP vaya siempre al mismo back-end edito el archivo de configuración poniendo la directiva ip_hash
 
+![imagen9](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen8.png)
 
 
 
