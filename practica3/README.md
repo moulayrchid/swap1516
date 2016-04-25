@@ -66,7 +66,7 @@ ahora edito el archivo de configuración para darle mas peso a la máquina 2 de 
 
 los resultados que salen se ajustan a lo comentado anteriormente
 
-![imagen8]()
+![imagen8](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen8.png)
 
 
 
