@@ -47,6 +47,14 @@ Instalo nginx
 
 ## 3.2. Balanceo de carga usando nginx
 
+Creo el archivo /etc/nginx/conf.d/default.conf 
+
+Configuramos el archivo
+
+![imagen4]()
+
+
+
 
 
 
