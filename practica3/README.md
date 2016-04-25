@@ -39,11 +39,13 @@ debemos hacer es importar la clave del repositorio de software:
 
 Agrego el repositorio al archivo sourcelist de apt
 
-![imagen3]()
+![imagen3](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen3.png)
 
 Instalo nginx
 
-![imagen4]()
+![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen4.png)
+
+## 3.2. Balanceo de carga usando nginx
 
 
 
