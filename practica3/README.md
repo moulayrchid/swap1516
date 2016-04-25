@@ -53,6 +53,14 @@ Configuramos el archivo
 
 ![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen5.png)
 
+para probar modificamos los dos archivos de las dos maquinas: añadiendo sus IP y Nombre de la maquina
+
+--
+sudo nano /var/www/html/index.html
+--
+
+![imagen4]()
+
 
 
 
