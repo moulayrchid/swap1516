@@ -51,13 +51,17 @@ Creo el archivo /etc/nginx/conf.d/default.conf
 
 Configuramos el archivo
 
-![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen5.png)
+![imagen5](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen5.png)
 
 para probar modificamos los dos archivos de las dos maquinas: añadiendo sus IP y Nombre de la maquina
 
 sudo nano /var/www/html/index.html
 
-![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen6.png)
+![imagen6](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen6.png)
+
+ahora edito el archivo de configuración para darle mas peso a la máquina 2 de forma que cada 3 peticiones una vaya a parar a la máquina 1 y dos a la máquina 2
+
+![imagen7](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen6.png)
 
 
 
