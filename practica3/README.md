@@ -10,4 +10,22 @@ cualquier protocolo, pero dado que esta asignatura se centra en las tecnologías
 balancearemos los servidores HTTP que tenemos configurados.  
 De esta forma conseguiremos una infraestructura redundante y de alta disponibilidad  
 
+## 2. Alternativas para realizar balanceo de carga
+
+La forma más elemental de balancear la carga entre varios servidores es utilizando el
+*DNS* (como se estudió en la teoría). Este tipo de balanceo tiene la ventaja de su
+simplicidad y eficiencia. Lo único que se necesitan son varios servidores con distintas
+*IP*, por lo que es barato, simple y fácil de mantener.
+
+## 2.1 Estructura de  maquinas:
+Nombre de la maquina | Dirección IP
+-----------| -------------
+Maquina1 |172.16.76.128
+Maquina2 |172.16.76.130
+Mquina3-Balanceador |172.16.76.129
+
+en esta maquina vemos como Apache no esta en ejecución
+
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/pract1-imagen1.png)
+
 
