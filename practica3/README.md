@@ -26,6 +26,35 @@ Mquina3-Balanceador |172.16.76.129
 
 en esta maquina vemos como Apache no esta en ejecución
 
-![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica2/pract1-imagen1.png)
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica3/nueva)
+
+## 3. El servidor web nginx
+
+## 3.1. Instalar nginx en Ubuntu Server 
+
+El proceso de instalación en Ubuntu se basa en el uso de apt-get. Lo primero que  
+debemos hacer es importar la clave del repositorio de software:  
+
+![imagen2]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
