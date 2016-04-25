@@ -72,7 +72,9 @@ Para hacer que todo el trafico proveniente del mismo IP vaya siempre al mismo ba
 
 ![imagen9](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen9.png)
 
+Para hacer la conexión persistente edito el archivo de configuración poniendo la directiva keepalive
 
+![imagen10](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen10.png)
 
 
 
