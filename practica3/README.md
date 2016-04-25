@@ -92,6 +92,14 @@ apt-get install haproxy
 
 ![imagen12](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen12.png)
 
+## 4.2. Configuración básica de haproxy como balanceador
+
+Ahora hay que configurar el archivo /etc/haproxy/haproxy.cfg
+
+lo primero guardo una copia de seguridad del la configuracion por defecto sudo mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup y creo el nuevo archivo /etc/haproxy/haproxy.cfg como sigue :
+
+
+![imagen13](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen13.png)
 
 
 
