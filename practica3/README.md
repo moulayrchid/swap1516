@@ -61,7 +61,7 @@ sudo nano /var/www/html/index.html
 
 ahora edito el archivo de configuración para darle mas peso a la máquina 2 de forma que cada 3 peticiones una vaya a parar a la máquina 1 y dos a la máquina 2
 
-![imagen7](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen6.png)
+![imagen7](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen7.png)
 
 
 
