@@ -37,7 +37,13 @@ debemos hacer es importar la clave del repositorio de software:
 
 ![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica3/imagen2.png)
 
+Agrego el repositorio al archivo sourcelist de apt
 
+![imagen3]()
+
+Instalo nginx
+
+![imagen4]()
 
 
 
