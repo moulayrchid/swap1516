@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 5:Medir prestaciones" >
+
+<pregunta>
+  <enunciado>¿que  herramientas no se usan para comprobar el rendimiento de los servidores web?:</enunciado>
+  <opcionA>httperf</opcionA>
+  <opcionB>openWebLoad</opcionB>
+  <opcionC>blender</opcionC>
+  <opcionD>jMeter</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿ Cual es son  las métricas  que no hemos utilizado  
+  para medir las prestaciones de los dispositivos de balanceo?:</enunciado>
+  <opcionA>bits por segundos</opcionA>
+  <opcionB>conexiones por segundo</opcionB>
+  <opcionC>yottaFLOPS</opcionC>
+  <opcionD>número total de conexiones concurrentes</opcionD>
+  <solucion>C</solucion>
+</pregunta>
