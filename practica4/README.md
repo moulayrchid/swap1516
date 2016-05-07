@@ -14,22 +14,31 @@ Crea una página HTML sencilla (o un script PHP) y la colocamos la colocamos en 
 correspondiente al espacio web de los servidores finales (normalmente /var/www/ o
 /var/www/html/)
 
-En la Maquina 1 y la 2 la balanceadora hemos creado el fichero prueba.php
-
-<?php
-$tiempo_inicio = microtime(true);
-for ($i=0; $i<3000000; $i++){
- $a = $i * $i;
- $b = $a - $i;
- $c = $a / $b;
- $d = 1 / $c;
-}
-$tiempo_fin = microtime(true);
-echo "Tiempo empleado: " . round($tiempo_fin - $tiempo_inicio, 4) ;
-?>
-
-![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica3/nueva)
+En la Maquina 1 y la 2 y  la balanceadora hemos creado el fichero prueba.php
 
 
-Tambien para automatizar un poco las pruebas creamos un script bash para hacer una bateria de 30 pruebas y que los guarde en 3 archivos pruebaAbM1.txt pruebaAbBalanceadorNginx.txt pruebaAbBalanceadorHaproxy.txt
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica4/prueba.php_maquina%20_balanceadora.png)
+
+
+También para automatizar un poco las pruebas creamos un script bash para hacer una bateria de 30 pruebas y que los guarde en 3 archivos pruebaAbMaquina1.txt  pruebaAbMaquina2.txt pruebaAbBalanceadorNginx.txt pruebaAbBalanceadorHaproxy.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
