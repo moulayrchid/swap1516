@@ -35,7 +35,7 @@ Despues de obtener los archivos seleccionamos los datos que nos interesan creand
 
 **De toda la información que nos ofrece esta herramienta proponemos recoger al menos las métricas **“Time taken for tests”**,**“Filed requests”** y **“Requests per second”**
 
-
+**pasamos los datos a una hoja de calculo y hacemos unas comparaciones entre las 3 configuraciones de la granja web ademas tomando como referencia la media y la desviscion tipoca:**
 
 
 
