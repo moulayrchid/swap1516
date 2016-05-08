@@ -28,7 +28,7 @@ creamos un scriptbash.sh y guardamos los datos en estos ficheros:
 
 Ejecutamos el scriptbah.sh en la máquina local
 
-![imagen2]()
+![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica4/anfitriona.png)
 
 
 
