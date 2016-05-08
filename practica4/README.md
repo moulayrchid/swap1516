@@ -26,9 +26,20 @@ creamos un scriptbash.sh y guardamos los datos en estos ficheros:
   pruebaAbBalanceadorNginx.txt  
   pruebaAbBalanceadorHaproxy.txt  
 
-Ejecutamos el scriptbah.sh en la máquina local
+Ejecutamos el scriptbah.sh en la máquina local(ver carpeta de practica 4)
 
 ![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica4/anfitriona.png)
+
+
+Despues de obtener los archivos seleccionamos los datos que nos interesan creando un script.(ver carpeta de practica 4)
+
+**De toda la información que nos ofrece esta herramienta proponemos recoger al menos las métricas **“Time taken for tests”**,**“Filed requests”** y **“Requests per second”**
+
+
+
+
+
+
 
 
 
