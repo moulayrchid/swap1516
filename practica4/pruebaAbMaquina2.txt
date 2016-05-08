@@ -1,0 +1,1322 @@
+########################    Prueba 1 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.058 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3270.26 [#/sec] (mean)
+Time per request:       3.058 [ms] (mean)
+Time per request:       0.306 [ms] (mean, across all concurrent requests)
+Transfer rate:          1485.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       6
+Processing:     0    3   1.3      3      31
+Waiting:        0    3   0.8      2      31
+Total:          0    3   1.3      3      31
+WARNING: The median and mean for the waiting time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      3
+  80%      3
+  90%      4
+  95%      5
+  98%      7
+  99%      9
+ 100%     31 (longest request)
+########################    Prueba 2 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.207 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3118.04 [#/sec] (mean)
+Time per request:       3.207 [ms] (mean)
+Time per request:       0.321 [ms] (mean, across all concurrent requests)
+Transfer rate:          1415.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       4
+Processing:     0    3   3.3      3     111
+Waiting:        0    2   1.8      2      61
+Total:          0    3   3.3      3     112
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      3
+  80%      3
+  90%      4
+  95%      6
+  98%     12
+  99%     18
+ 100%    112 (longest request)
+########################    Prueba 3 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.033 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3296.85 [#/sec] (mean)
+Time per request:       3.033 [ms] (mean)
+Time per request:       0.303 [ms] (mean, across all concurrent requests)
+Transfer rate:          1497.11 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       6
+Processing:     0    3   6.8      2     220
+Waiting:        0    2   4.5      2     220
+Total:          0    3   6.8      2     220
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      6
+  98%     21
+  99%     38
+ 100%    220 (longest request)
+########################    Prueba 4 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.861 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3495.21 [#/sec] (mean)
+Time per request:       2.861 [ms] (mean)
+Time per request:       0.286 [ms] (mean, across all concurrent requests)
+Transfer rate:          1587.18 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       7
+Processing:     0    3   5.6      2      90
+Waiting:        0    2   2.8      2      61
+Total:          0    3   5.6      2      91
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      4
+  98%     20
+  99%     37
+ 100%     91 (longest request)
+########################    Prueba 5 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   20.827 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    480.14 [#/sec] (mean)
+Time per request:       20.827 [ms] (mean)
+Time per request:       2.083 [ms] (mean, across all concurrent requests)
+Transfer rate:          218.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   8.8      0     200
+Processing:     0   20 536.9      2   16987
+Waiting:        0   19 536.9      2   16987
+Total:          0   21 543.1      2   17183
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      3
+  90%      3
+  95%     11
+  98%     32
+  99%     49
+ 100%  17183 (longest request)
+########################    Prueba 6 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   9.518 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    1050.67 [#/sec] (mean)
+Time per request:       9.518 [ms] (mean)
+Time per request:       0.952 [ms] (mean, across all concurrent requests)
+Transfer rate:          477.11 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   6.3      0     200
+Processing:     0    9 200.6      2    6372
+Waiting:        0    2  62.2      1    6216
+Total:          0   10 200.7      2    6372
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     28
+  99%     44
+ 100%   6372 (longest request)
+########################    Prueba 7 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.996 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3337.71 [#/sec] (mean)
+Time per request:       2.996 [ms] (mean)
+Time per request:       0.300 [ms] (mean, across all concurrent requests)
+Transfer rate:          1515.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       7
+Processing:     0    3   6.7      2     132
+Waiting:        0    2   4.0      2     117
+Total:          0    3   6.7      2     132
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     25
+  99%     42
+ 100%    132 (longest request)
+########################    Prueba 8 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.843 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3517.60 [#/sec] (mean)
+Time per request:       2.843 [ms] (mean)
+Time per request:       0.284 [ms] (mean, across all concurrent requests)
+Transfer rate:          1597.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       6
+Processing:     0    3   5.1      2     108
+Waiting:        0    2   3.2      2     108
+Total:          0    3   5.2      2     108
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     18
+  99%     32
+ 100%    108 (longest request)
+########################    Prueba 9 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.869 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3485.86 [#/sec] (mean)
+Time per request:       2.869 [ms] (mean)
+Time per request:       0.287 [ms] (mean, across all concurrent requests)
+Transfer rate:          1582.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       6
+Processing:     0    3   7.5      2     334
+Waiting:        0    2   4.1      1     257
+Total:          0    3   7.5      2     334
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      4
+  98%     25
+  99%     40
+ 100%    334 (longest request)
+########################    Prueba 10 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.267 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3061.25 [#/sec] (mean)
+Time per request:       3.267 [ms] (mean)
+Time per request:       0.327 [ms] (mean, across all concurrent requests)
+Transfer rate:          1390.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     0    3   8.6      2     342
+Waiting:        0    2   4.3      1     182
+Total:          0    3   8.6      2     342
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      7
+  98%     30
+  99%     49
+ 100%    342 (longest request)
+########################    Prueba 11 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.096 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3229.65 [#/sec] (mean)
+Time per request:       3.096 [ms] (mean)
+Time per request:       0.310 [ms] (mean, across all concurrent requests)
+Transfer rate:          1466.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       9
+Processing:     0    3   7.5      2     167
+Waiting:        0    2   3.5      1      69
+Total:          0    3   7.5      2     167
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      6
+  98%     29
+  99%     47
+ 100%    167 (longest request)
+########################    Prueba 12 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.347 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    2988.07 [#/sec] (mean)
+Time per request:       3.347 [ms] (mean)
+Time per request:       0.335 [ms] (mean, across all concurrent requests)
+Transfer rate:          1356.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       6
+Processing:     0    3   9.0      1     243
+Waiting:        0    2   4.6      1     243
+Total:          0    3   9.0      2     243
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      9
+  98%     36
+  99%     52
+ 100%    243 (longest request)
+########################    Prueba 13 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.016 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3315.84 [#/sec] (mean)
+Time per request:       3.016 [ms] (mean)
+Time per request:       0.302 [ms] (mean, across all concurrent requests)
+Transfer rate:          1505.73 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       7
+Processing:     0    3   8.2      1     147
+Waiting:        0    2   4.1      1     103
+Total:          0    3   8.2      2     148
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     32
+  99%     53
+ 100%    148 (longest request)
+########################    Prueba 14 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.160 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3164.72 [#/sec] (mean)
+Time per request:       3.160 [ms] (mean)
+Time per request:       0.316 [ms] (mean, across all concurrent requests)
+Transfer rate:          1437.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       6
+Processing:     0    3   9.5      1     383
+Waiting:        0    2   4.4      1      82
+Total:          0    3   9.5      1     383
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      8
+  98%     34
+  99%     51
+ 100%    383 (longest request)
+########################    Prueba 15 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.042 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3287.28 [#/sec] (mean)
+Time per request:       3.042 [ms] (mean)
+Time per request:       0.304 [ms] (mean, across all concurrent requests)
+Transfer rate:          1492.76 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       5
+Processing:     0    3  10.6      1     435
+Waiting:        0    2   6.0      1     384
+Total:          0    3  10.6      1     435
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     32
+  99%     55
+ 100%    435 (longest request)
+########################    Prueba 16 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.065 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3262.48 [#/sec] (mean)
+Time per request:       3.065 [ms] (mean)
+Time per request:       0.307 [ms] (mean, across all concurrent requests)
+Transfer rate:          1481.50 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       5
+Processing:     0    3   8.8      1     244
+Waiting:        0    2   4.7      1     160
+Total:          0    3   8.9      1     244
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      6
+  98%     28
+  99%     52
+ 100%    244 (longest request)
+########################    Prueba 17 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.171 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3153.29 [#/sec] (mean)
+Time per request:       3.171 [ms] (mean)
+Time per request:       0.317 [ms] (mean, across all concurrent requests)
+Transfer rate:          1431.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       6
+Processing:     0    3   9.9      1     440
+Waiting:        0    2   4.6      1     118
+Total:          0    3   9.9      1     440
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      7
+  98%     32
+  99%     55
+ 100%    440 (longest request)
+########################    Prueba 18 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.299 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3031.61 [#/sec] (mean)
+Time per request:       3.299 [ms] (mean)
+Time per request:       0.330 [ms] (mean, across all concurrent requests)
+Transfer rate:          1376.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       8
+Processing:     0    3  10.2      1     417
+Waiting:        0    2   4.7      1     149
+Total:          0    3  10.2      1     417
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      7
+  98%     35
+  99%     59
+ 100%    417 (longest request)
+########################    Prueba 19 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.294 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3035.95 [#/sec] (mean)
+Time per request:       3.294 [ms] (mean)
+Time per request:       0.329 [ms] (mean, across all concurrent requests)
+Transfer rate:          1378.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       4
+Processing:     0    3  10.2      1     411
+Waiting:        0    1   4.0      1     114
+Total:          0    3  10.2      1     411
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%     10
+  98%     38
+  99%     57
+ 100%    411 (longest request)
+########################    Prueba 20 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.377 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    2961.40 [#/sec] (mean)
+Time per request:       3.377 [ms] (mean)
+Time per request:       0.338 [ms] (mean, across all concurrent requests)
+Transfer rate:          1344.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       2
+Processing:     0    3  12.7      1     504
+Waiting:        0    1   5.5      1     261
+Total:          0    3  12.7      1     504
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      2
+  90%      2
+  95%     12
+  98%     43
+  99%     62
+ 100%    504 (longest request)
+########################    Prueba 21 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.376 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    2961.86 [#/sec] (mean)
+Time per request:       3.376 [ms] (mean)
+Time per request:       0.338 [ms] (mean, across all concurrent requests)
+Transfer rate:          1344.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       2
+Processing:     0    3  12.2      1     503
+Waiting:        0    1   7.3      1     503
+Total:          0    3  12.2      1     503
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      2
+  90%      2
+  95%      8
+  98%     43
+  99%     70
+ 100%    503 (longest request)
+########################    Prueba 22 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.221 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3104.52 [#/sec] (mean)
+Time per request:       3.221 [ms] (mean)
+Time per request:       0.322 [ms] (mean, across all concurrent requests)
+Transfer rate:          1409.77 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       7
+Processing:     0    3  11.3      1     203
+Waiting:        0    1   4.9      1     130
+Total:          0    3  11.3      1     204
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      2
+  80%      2
+  90%      2
+  95%      6
+  98%     39
+  99%     69
+ 100%    204 (longest request)
+########################    Prueba 23 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.833 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3529.56 [#/sec] (mean)
+Time per request:       2.833 [ms] (mean)
+Time per request:       0.283 [ms] (mean, across all concurrent requests)
+Transfer rate:          1602.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       7
+Processing:     0    3  10.1      1     245
+Waiting:        0    1   5.1      1     193
+Total:          0    3  10.1      1     246
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%     29
+  99%     55
+ 100%    246 (longest request)
+########################    Prueba 24 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.310 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3020.91 [#/sec] (mean)
+Time per request:       3.310 [ms] (mean)
+Time per request:       0.331 [ms] (mean, across all concurrent requests)
+Transfer rate:          1371.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0      11
+Processing:     0    3  12.3      1     281
+Waiting:        0    1   5.4      1     138
+Total:          0    3  12.3      1     281
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     37
+  99%     69
+ 100%    281 (longest request)
+########################    Prueba 25 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.843 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3517.15 [#/sec] (mean)
+Time per request:       2.843 [ms] (mean)
+Time per request:       0.284 [ms] (mean, across all concurrent requests)
+Transfer rate:          1597.14 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       4
+Processing:     0    3   9.1      1     134
+Waiting:        0    2   4.9      1     125
+Total:          0    3   9.1      1     134
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%     26
+  99%     61
+ 100%    134 (longest request)
+########################    Prueba 26 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.186 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3138.85 [#/sec] (mean)
+Time per request:       3.186 [ms] (mean)
+Time per request:       0.319 [ms] (mean, across all concurrent requests)
+Transfer rate:          1425.36 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     0    3  12.1      1     534
+Waiting:        0    1   4.6      1     103
+Total:          0    3  12.1      1     534
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      5
+  98%     38
+  99%     59
+ 100%    534 (longest request)
+########################    Prueba 27 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.111 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3214.51 [#/sec] (mean)
+Time per request:       3.111 [ms] (mean)
+Time per request:       0.311 [ms] (mean, across all concurrent requests)
+Transfer rate:          1459.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     0    3  10.6      1     256
+Waiting:        0    2   5.5      1     102
+Total:          0    3  10.6      1     256
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      2
+  80%      2
+  90%      3
+  95%      5
+  98%     36
+  99%     63
+ 100%    256 (longest request)
+########################    Prueba 28 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.982 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3353.51 [#/sec] (mean)
+Time per request:       2.982 [ms] (mean)
+Time per request:       0.298 [ms] (mean, across all concurrent requests)
+Transfer rate:          1522.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       3
+Processing:     0    3  10.0      1     276
+Waiting:        0    2   5.5      1     276
+Total:          0    3  10.0      1     277
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      4
+  98%     27
+  99%     55
+ 100%    277 (longest request)
+########################    Prueba 29 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.293 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3036.47 [#/sec] (mean)
+Time per request:       3.293 [ms] (mean)
+Time per request:       0.329 [ms] (mean, across all concurrent requests)
+Transfer rate:          1378.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       2
+Processing:     0    3  13.1      1     665
+Waiting:        0    1   5.1      1     133
+Total:          0    3  13.1      1     665
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      2
+  80%      2
+  90%      2
+  95%      5
+  98%     44
+  99%     67
+ 100%    665 (longest request)
+########################    Prueba 30 en la maquina2    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.16.76.130 (be patient)
+
+
+Server Software:        Apache/2.4.7
+Server Hostname:        172.16.76.130
+Server Port:            80
+
+Document Path:          /prueba.php
+Document Length:        286 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.829 seconds
+Complete requests:      10000
+Failed requests:        0
+Non-2xx responses:      10000
+Total transferred:      4650000 bytes
+HTML transferred:       2860000 bytes
+Requests per second:    3535.11 [#/sec] (mean)
+Time per request:       2.829 [ms] (mean)
+Time per request:       0.283 [ms] (mean, across all concurrent requests)
+Transfer rate:          1605.30 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       9
+Processing:     0    3   9.0      1     168
+Waiting:        0    2   4.6      1      95
+Total:          0    3   9.0      1     168
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%     25
+  99%     55
+ 100%    168 (longest request)
