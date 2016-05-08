@@ -20,7 +20,15 @@ En la Maquina 1 y la 2 y  la balanceadora hemos creado el fichero prueba.php
 ![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica4/prueba.php_maquina%20_balanceadora.png)
 
 
-También para automatizar un poco las pruebas creamos un script bash para hacer una bateria de 30 pruebas y que los guarde en 3 archivos pruebaAbMaquina1.txt  pruebaAbMaquina2.txt pruebaAbBalanceadorNginx.txt pruebaAbBalanceadorHaproxy.txt
+creamos un scriptbash.sh y guardamos los datos en estos ficheros: 
+  pruebaAbMaquina1.txt  
+  pruebaAbMaquina2.txt  
+  pruebaAbBalanceadorNginx.txt  
+  pruebaAbBalanceadorHaproxy.txt  
+
+Ejecutamos el scriptbah.sh en la máquina local
+
+![imagen2]()
 
 
 
