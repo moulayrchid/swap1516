@@ -54,19 +54,20 @@ para tiempo de test y peticiónes por segundo la mas rapida es la Máquina1
 
         Para la Máquina1 servidora se ha ejecutado siege -b -t60s http://172.16.76.128/prueba.php
 
-	![imagen5]()
+	![imagen5](https://github.com/moulayrchid/swap1516/blob/master/practica4/im_maquina1.png)
+	![imagen6](https://github.com/moulayrchid/swap1516/blob/master/practica4/maquina1-siguiente.png)
 
         Para la Máquina2 servidora se ha ejecutado siege -b -t60s http://172.16.76.130/prueba.php
 	
-	![imagen6]()
+	![imagen7]()
 
         Para la Máquina balanceadora haproxy a se ha ejecutado siege -b -t60s http://172.16.76.129/prueba.php
 
-	![imagen7]()
+	![imagen8]()
 
         Para la Máquina balanceadora Nginx a se ha ejecutado siege -b -t60s http://172.16.76.129/prueba.php
 
-	![imagen8]()
+	![imagen9]()
 
 
 
