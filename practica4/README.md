@@ -63,11 +63,11 @@ para tiempo de test y peticiónes por segundo la mas rapida es la Máquina1
 
         Para la Máquina balanceadora haproxy a se ha ejecutado siege -b -t60s http://172.16.76.129/prueba.php
 
-	![imagen8]()
+	![imagen8](https://github.com/moulayrchid/swap1516/blob/master/practica4/im-bala-hapro.png)
 
         Para la Máquina balanceadora Nginx a se ha ejecutado siege -b -t60s http://172.16.76.129/prueba.php
 
-	![imagen9]()
+	![imagen9](https://github.com/moulayrchid/swap1516/blob/master/practica4/nginx.png)
 
 
 
