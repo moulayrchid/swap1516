@@ -26,7 +26,7 @@ creamos un scriptbash.sh y guardamos los datos en estos ficheros:
   pruebaAbBalanceadorNginx.txt  
   pruebaAbBalanceadorHaproxy.txt  
 
-Ejecutamos el scriptbah.sh en la máquina local(ver carpeta de practica 4)
+Ejecutamos el scriptAB.sh en la máquina local:[VER SCRIPT](https://github.com/moulayrchid/swap1516/blob/master/practica4/scriptAB.sh)
 
 ![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica4/anfitriona.png)
 
@@ -50,8 +50,23 @@ pero para peticiónes por segundo vemos que la máquina más rapida es Nginx des
 para tiempo de test y peticiónes por segundo la mas rapida es la Máquina1
 
 
+# 3. Comprobar el rendimiento con Siege
 
+        Para la Máquina1 servidora se ha ejecutado siege -b -t60s http://172.16.76.128/prueba.php
 
+	![imagen5]()
+
+        Para la Máquina2 servidora se ha ejecutado siege -b -t60s http://172.16.76.130/prueba.php
+	
+	![imagen6]()
+
+        Para la Máquina balanceadora haproxy a se ha ejecutado siege -b -t60s http://172.16.76.129/prueba.php
+
+	![imagen7]()
+
+        Para la Máquina balanceadora Nginx a se ha ejecutado siege -b -t60s http://172.16.76.129/prueba.php
+
+	![imagen8]()
 
 
 
