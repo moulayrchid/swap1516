@@ -39,10 +39,15 @@ Despues de obtener los archivos seleccionamos los datos que nos interesan creand
 
  VER  [hoja de calculo]()
 
-![imagen3]()
+![imagen3](https://github.com/moulayrchid/swap1516/blob/master/practica4/IMAGEN3.png)
 
-![imagen4]()
+![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica4/IMAGEN4.png)
 
+En las graficas vemos que tiempo de cada test más rapido es de la maquina 1 y despues maquina 2 y el siguinte haproxy y el ultimo es Nginx  
+
+pero para peticiónes por segundo vemos que la máquina más rapida es Nginx despues Haproxy despues Máquina2 y ultima ea Máquina1  
+
+para tiempo de test y peticiónes por segundo la mas rapida es la Máquina1
 
 
 
