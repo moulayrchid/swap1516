@@ -71,8 +71,9 @@ para tiempo de test y peticiónes por segundo la mas rapida es la Máquina1
 ![imagen9](https://github.com/moulayrchid/swap1516/blob/master/practica4/nginx.png)
 
 
-
-
+Vemos que todos los  servidores  han  estado disponible el 97.36 o un poquita mas % del tiempo de ejecución Además, el tiempo de respuesta medio ha sido de todos 0.01 segundos, y el que  ha hecho en media menos peticiones por segundo es Haproxy 1942,75 trans/sec. 
+ la petición de servidor que necesito menos tiempo en servirse  tardó 0.13 segundos de maquina2
+ 
 
 
 
