@@ -8,4 +8,16 @@ Los objetivos concretos de esta práctica son:
 • Configurar la estructura maestro-esclavo entre dos máquinas para realizar el
 clonado automático de la información.
 
+## 2 Estructura de  maquinas:
+
+Nombre de la maquina | Dirección IP
+-----------| -------------
+Maquina1 |172.16.76.128
+Maquina2 |172.16.76.130
+Mquina3-Balanceador |172.16.76.129
+
+## 3. Crear una BD e insertar datos
+
+
+
 
