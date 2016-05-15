@@ -33,16 +33,28 @@ mysql -u root –p
 mysql> FLUSH TABLES WITH READ LOCK;  
 mysql> quit  
 
-![imagen3]()
+![imagen3](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen3.png)
 
 Ahora ya sí podemos hacer el mysqldump para guardar los datos. En el servidor principal (maquina1) hacemos:  
+
 mysqldump ejemplodb -u root -p > /root/ejemplodb.sql
+
 Como habíamos bloqueado las tablas, debemos desbloquearlas (quitar el “LOCK”):  
+
 mysql -u root –p  
 mysql> UNLOCK TABLES;  
 mysql> quit  
 
-![imagen4]()
+![imagen4](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen4.png)
+
+Ya podemos ir a la máquina esclavo (maquina2, secundaria) para copiar el archivo
+.SQL con todos los datos salvados desde la máquina principal (maquina1):  
+sudo su
+scp root@176.16.76.128:/root/contactosdb.sql /root/
+
+![imagen5](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen5.png)
+
+
 
 
 
