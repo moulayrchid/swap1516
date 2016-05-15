@@ -20,5 +20,5 @@ Mquina3-Balanceador |172.16.76.129
 
  crearmos una BD en MySQL e insertamos algunos datos
 
-
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen1.png)
 
