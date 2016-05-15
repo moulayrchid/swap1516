@@ -22,3 +22,10 @@ Mquina3-Balanceador |172.16.76.129
 
 ![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen1.png)
 
+![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen2.png)
+
+
+# 4. Replicar una BD MySQL con mysqldump
+
+
+
