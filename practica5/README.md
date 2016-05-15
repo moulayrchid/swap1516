@@ -22,10 +22,45 @@ Mquina3-Balanceador |172.16.76.129
 
 ![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen1.png)
 
-![imagen1](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen2.png)
+![imagen2](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen2.png)
 
 
 # 4. Replicar una BD MySQL con mysqldump
+ tenemos que tener en cuenta que los datos pueden estar actualizándose constantemente en el servidor de BD principal. En este caso,
+antes de hacer la copia de seguridad en el archivo .SQL debemos evitar que se acceda a la BD para cambiar nada.
+
+mysql -u root –p  
+mysql> FLUSH TABLES WITH READ LOCK;  
+mysql> quit  
+
+![imagen3]()
+
+Ahora ya sí podemos hacer el mysqldump para guardar los datos. En el servidor principal (maquina1) hacemos:  
+mysqldump ejemplodb -u root -p > /root/ejemplodb.sql
+Como habíamos bloqueado las tablas, debemos desbloquearlas (quitar el “LOCK”):  
+mysql -u root –p  
+mysql> UNLOCK TABLES;  
+mysql> quit  
+
+![imagen4]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
