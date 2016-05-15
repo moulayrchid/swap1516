@@ -18,6 +18,7 @@ Mquina3-Balanceador |172.16.76.129
 
 ## 3. Crear una BD e insertar datos
 
+ crearmos una BD en MySQL e insertamos algunos datos
 
 
 
