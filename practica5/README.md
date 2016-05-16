@@ -69,7 +69,7 @@ mysql -u root -p contactosdb < /root/contactosdb.sql
 ![imagen7](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen7.png)
 
 
-
+# 5. Replicación de BD mediante una configuración maestro-esclavo
 
 
 
