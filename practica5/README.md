@@ -91,7 +91,7 @@ Se reinicia el servicio mediante el comando /etc/init.d/mysql restart
 
 En la maquina2 de replicación se realiza exactamente lo mismo con el fichero /etc/mysql/my.cnf cambiando de que server-id=2
 
-
+![imagen9](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen9.png)
 
 
 
