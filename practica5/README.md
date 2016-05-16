@@ -56,11 +56,17 @@ scp root@176.16.76.128:/root/contactosdb.sql /root/
 
 Con el archivo de copia de seguridad en el esclavo ya podemos importar la BD completa en el MySQL. Para ello, en un primer paso creamos la BD:  
 
-mysql -u root –p
-mysql> CREATE DATABASE ‘ejemplodb’;
-mysql> quit
+mysql -u root –p  
+mysql> CREATE DATABASE ‘ejemplodb’;  
+mysql> quit  
 
 ![imagen6](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen6.png)
+
+Ahora restauramos los datos contenidos en la BD (se crearán las tablas en el proceso):  
+
+mysql -u root -p contactosdb < /root/contactosdb.sql
+
+![imagen7](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen7.png)
 
 
 
