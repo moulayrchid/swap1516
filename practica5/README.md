@@ -112,7 +112,20 @@ mysql> FLUSH TABLES WITH READ LOCK;
 
 ![imagen11](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen11.png)
 
+Volvemos a la máquina esclava, entramos en mysql y le damos los datos del maestro.
+Como indicábamos antes, estos datos se pueden introducir directamente en el archivo
+de configuración si trabajamos con versiones inferiores a mysql 5.5. Si no es así, en el
+entorno de mysql ejecutamos la siguiente sentencia (ojo con la IP, "master_log_file" y
+del "master_log_pos" del maestro):  
 
+mysql> CHANGE MASTER TO MASTER_HOST='192.168.31.200',  
+MASTER_USER='esclavo', MASTER_PASSWORD='esclavo',  
+MASTER_LOG_FILE='mysql-bin.000002', MASTER_LOG_POS=502,  
+MASTER_PORT=3306;  
+
+mysql> START SLAVE;  
+
+![imagen12](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen12.png)
 
 
 
