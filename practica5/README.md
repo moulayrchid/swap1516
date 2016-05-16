@@ -99,8 +99,18 @@ Reiniciamos el servicio en el esclavo:
 ![imagen10](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen10.png)
 
 
+Podemos volver al maestro (Maquina1)para crear un usuario y darle permisos de acceso para la replicación.
 
+Entramos en mysql y ejecutamos las siguientes sentencias:  
+mysql -uroot -p  
+mysql> CREATE USER esclavo IDENTIFIED BY 'esclavo';  
+mysql> GRANT REPLICATION SLAVE ON *.* TO 'esclavo'@'%'  
+IDENTIFIED BY 'esclavo';  
+mysql> FLUSH PRIVILEGES;  
+mysql> FLUSH TABLES;  
+mysql> FLUSH TABLES WITH READ LOCK;  
 
+![imagen11](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen11.png)
 
 
 
