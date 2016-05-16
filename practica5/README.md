@@ -93,7 +93,10 @@ En la maquina2 de replicación se realiza exactamente lo mismo con el fichero /e
 
 ![imagen9](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen9.png)
 
+Reiniciamos el servicio en el esclavo:  
+/etc/init.d/mysql restart  
 
+![imagen10](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen10.png)
 
 
 
