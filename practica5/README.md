@@ -132,7 +132,14 @@ mysql> UNLOCK TABLES;
 
 ![imagen13](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen13.png)
 
+Ahora, si queremos asegurarnos de que todo funciona perfectamente y que el esclavo no tiene ningún problema para replicar la información, nos vamos al esclavo y con la siguiente orden:  
 
+mysql> SHOW SLAVE STATUS\G  
+
+revisamos si el valor de la variable “Seconds_Behind_Master” es distinto de “null”. En
+ese caso, todo estará funcionando perfectamente.
+
+![imagen14](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen14.png)
 
 
 
