@@ -127,7 +127,10 @@ mysql> START SLAVE;
 
 ![imagen12](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen12.png)
 
+Por último, volvemos al maestro y volvemos a activar las tablas para que puedan meterse nuevos datos en el maestro:
+mysql> UNLOCK TABLES;  
 
+![imagen13](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen13.png)
 
 
 
