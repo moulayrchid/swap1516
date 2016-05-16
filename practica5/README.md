@@ -71,6 +71,12 @@ mysql -u root -p contactosdb < /root/contactosdb.sql
 
 # 5. Replicación de BD mediante una configuración maestro-esclavo
 
+Maquina1 |172.16.76.128 | Maestra
+Maquina2 |172.16.76.130 | esclavo
+
+
+
+
 
 
 
