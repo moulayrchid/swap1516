@@ -74,6 +74,25 @@ mysql -u root -p contactosdb < /root/contactosdb.sql
 Maquina1 |172.16.76.128 | Maestra  
 Maquina2 |172.16.76.130 | esclavo  
 
+En la maquina1 configuramos el fichero  
+
+cd /etc/mysql
+
+sudo nano my.cnf
+
+Se comenta la linea bind-address 127.0.0.1  
+ la linea log_error=/var/log/mysql/error.log se deja igual  
+ el identificador de servicio se deja con valor a 1 server-id=1  
+Se reinicia el servicio mediante el comando /etc/init.d/mysql restart  
+
+![imagen8-1](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen8-1.png)
+![imagen8-2](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen8-2.png)
+![imagen8-3](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen8-3.png)
+
+En la maquina2 de replicación se realiza exactamente lo mismo con el fichero /etc/mysql/my.cnf cambiando de que server-id=2
+
+
+
 
 
 
