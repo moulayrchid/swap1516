@@ -118,7 +118,7 @@ de configuración si trabajamos con versiones inferiores a mysql 5.5. Si no es a
 entorno de mysql ejecutamos la siguiente sentencia (ojo con la IP, "master_log_file" y
 del "master_log_pos" del maestro):  
 
-mysql> CHANGE MASTER TO MASTER_HOST='192.168.31.200',  
+mysql> CHANGE MASTER TO MASTER_HOST='172.16.76.128',  
 MASTER_USER='esclavo', MASTER_PASSWORD='esclavo',  
 MASTER_LOG_FILE='mysql-bin.000002', MASTER_LOG_POS=502,  
 MASTER_PORT=3306;  
@@ -140,6 +140,29 @@ revisamos si el valor de la variable “Seconds_Behind_Master” es distinto de 
 ese caso, todo estará funcionando perfectamente.
 
 ![imagen14](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen14.png)
+
+
+Para comprobar que todo funciona, debemos ir al maestro e introducir nuevos datos a la base de datos. A continuación vamos al esclavo para revisar si la modificación se ha reflejado en la tabla modificada en el maestro:
+
+# Imagen de maestro con datos nuevos
+
+![imagen15](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen15.png)
+
+# Imagen de esclavo con datos actualizados
+
+![imagen16](https://github.com/moulayrchid/swap1516/blob/master/practica5/imagen16.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
