@@ -47,6 +47,15 @@ buscar información con el comando
 
 ![imagen2](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen2.png)
 
+**los discos que hemos creado recientemente son: /dev/sdb /dev/sdc**  
+
+ creamos el RAID1 (/dev/md0) con los 2 discos anteriores, para ello ejecutamos el comando:
+
+*sudo mdadm -C /dev/md0 --level=raid1 --raid-devices=2 /dev/sdb /dev/sdc*  
+
+![imagen3](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen3.png)
+
+
 
 
 
