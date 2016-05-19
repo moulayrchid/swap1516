@@ -89,6 +89,23 @@ ejecutar la orden:
 
 ![imagen7](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen7.png)
 
+Una vez tengamos el UUID de la partición del array lo copiamos y lo añadimos en el fstab.
+
+**UUID=f47ec60c-60a3-4d81-a3e1-271731f11bf1 /dat ext4 defaults 0 0**  
+
+![imagen8](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen8.png)
+
+Así cada vez que arranquemos el sistema se montará el array automáticamente.
+
+## Simulando un fallo en una unidad
+
+ podemos simular un fallo en una unidad con mdadm.
+
+**mdadm --manage --set-faulty /dev/md0 /dev/sdc**  
+
+
+
+
 
 
 
