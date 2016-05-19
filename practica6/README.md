@@ -55,6 +55,8 @@ buscar información con el comando
 
 ![imagen3](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen3.png)
 
+![imagen4](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen4.png)
+
 
 
 
