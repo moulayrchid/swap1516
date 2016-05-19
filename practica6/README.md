@@ -103,9 +103,9 @@ Así cada vez que arranquemos el sistema se montará el array automáticamente.
 
  podemos simular un fallo en una unidad con mdadm.
 
-**mdadm --manage --set-faulty /dev/md0 /dev/sdc**  
+**mdadm --manage --set-faulty /dev/md/ubuntu-Maquina1:0 /dev/sdc**  
 
-
+![imagen10](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen10.png)
 
 
 
