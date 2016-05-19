@@ -21,6 +21,9 @@ Con la maquina vvirtual apagada le agregamos 2 discos duros que nos serviran par
 
 Apagamos la máquina y seguimos los pasos siguientes
 
+lsb_release -a
+UBUNTU 14.O4.4
+
 **1 edit virtual maching settings**  
 **2 ADD**  
 **3 HARD DISK** **MÁS NEXT**  
@@ -36,11 +39,23 @@ Apagamos la máquina y seguimos los pasos siguientes
 Ahora arrancamos la máquina1 y entramos para instalar el software necesario para
 configurar el RAID:
 
-
-
 *sudo apt-get install mdadm* 
 
-*sudo fdisk -l* para buscar información
+buscar información con el comando  
+
+*sudo fdisk -l* 
+
+![imagen2](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen2.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
