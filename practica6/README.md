@@ -107,7 +107,11 @@ Así cada vez que arranquemos el sistema se montará el array automáticamente.
 
 ![imagen10](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen10.png)
 
+También podemos retirar “en caliente” el disco que está marcado como que ha fallado:
 
+**sudo mdadm --manage --remove /dev/md/ubuntu-Maquina1:0 /dev/sdc**  
+
+![imagen11](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen11.png)
 
 
 
