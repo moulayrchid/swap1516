@@ -95,6 +95,8 @@ Una vez tengamos el UUID de la partición del array lo copiamos y lo añadimos e
 
 ![imagen8](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen8.png)
 
+![imagen9](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen9.png)
+
 Así cada vez que arranquemos el sistema se montará el array automáticamente.
 
 ## Simulando un fallo en una unidad
