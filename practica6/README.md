@@ -57,6 +57,21 @@ buscar información con el comando
 
 ![imagen4](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen4.png)
 
+Damos formato al nuevo dispositivo RAID con:  
+
+**sudo mkfs /dev/md0**  
+
+Ahora ya podemos crear el directorio en el que se montará la unidad del RAID:  
+**sudo mkdir /dat**  
+**sudo mount /dev/md0 /dat**  
+
+Podemos comprobar que el proceso se ha realizado adecuadamente, y también los parámetros con los que Linux ha conseguido montarlo usando la orden:
+**sudo mount**  
+
+Para comprobar el estado del RAID, ejecutaremos:
+**sudo mdadm --detail /dev/md0**  
+
+![imagen5](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen5.png)
 
 
 
