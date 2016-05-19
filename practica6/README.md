@@ -111,11 +111,24 @@ También podemos retirar “en caliente” el disco que está marcado como que h
 
 **sudo mdadm --manage --remove /dev/md/ubuntu-Maquina1:0 /dev/sdc**  
 
+Y comprobamos que después de haber quitado dicho disco del array podemos seguir accediendo a /dat.
+
+**ls -l /dat**
+
+
 ![imagen11](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen11.png)
 
+Como vemos aún podemos acceder al fichero MOULAYMOULAY que habíamos creado.
 
+Después de arreglar el disco roto, o sustituirlo, lo volvemos a añadir al array.
 
+**sudo mdadm --manage --add /dev/md/ubuntu-Maquina1:0 /dev/sdc**  
 
+Y comprobamos que todo sigue funcionando.
+
+![imagen12](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen12.png)
+
+![imagen13](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen13.png)
 
 
 
