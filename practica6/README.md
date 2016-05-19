@@ -77,6 +77,16 @@ Para probar el automontaje y forzar un fallo en el array y ver que podemos segui
 
 ![imagen6](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen6.png)
 
+Para finalizar el proceso, conviene configurar el sistema para que monte el dispositivo
+RAID creado al arrancar el sistema. Para ello debemos editar el archivo /etc/fstab y
+añadir la línea correspondiente para montar automáticamente dicho dispositivo.
+Conviene utilizar el identificador único de cada dispositivo de almacenamiento en lugar
+de simplemente el nombre del dispositivo (aunque ambas opciones son válidas). Para
+obtener los UUID de todos los dispositivos de almacenamiento que tenemos, debemos
+ejecutar la orden:
+
+**ls -l /dev/disk/by-uuid/**  
+
 
 
 
