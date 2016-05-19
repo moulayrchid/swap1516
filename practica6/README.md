@@ -87,7 +87,7 @@ ejecutar la orden:
 
 **ls -l /dev/disk/by-uuid/**  
 
-
+![imagen7](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen7.png)
 
 
 
