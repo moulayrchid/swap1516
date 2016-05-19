@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <tema titulo="Tema 6:  Almacenamiento de datos" >
 
@@ -24,3 +25,28 @@
 
 
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 6:  Almacenamiento de datos" >
+
+<pregunta>
+  <enunciado>¿Que RAID  significa ausencia de RAID?</enunciado>
+  <opcionA>RAID 0</opcionA>
+  <opcionB>RAID 1</opcionB>
+  <opcionC>RAID 4</opcionC>
+  <opcionD>RAID 5</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual de los siguientes sistemas avanzados de almacenamiento usan tecnologias de red?</enunciado>
+  <opcionA>NAS</opcionA>
+  <opcionB>SSA</opcionB>
+  <opcionC> SAN</opcionC>
+  <opcionD>todas las anteriores</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+</tema>
+>>>>>>> ded13e81e32350a69ec284045e6c03bcb97cfb20
