@@ -73,6 +73,12 @@ Para comprobar el estado del RAID, ejecutaremos:
 
 ![imagen5](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen5.png)
 
+Para probar el automontaje y forzar un fallo en el array y ver que podemos seguir utilizando los datos, creamos un fichero MOULAYMOULAY en /dat
+
+![imagen6](https://github.com/moulayrchid/SWAP1516/blob/master/practica6/imagen6.png)
+
+
+
 
 
 
