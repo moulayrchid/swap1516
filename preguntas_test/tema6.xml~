@@ -1,0 +1,41 @@
+# Preguntas Tema 6
+
+### 1.¿Cual de los siguientes conceptos no es una bases de los objetivos de seguridad?
+	a) integridad
+	b) disponibilidad
+	c) notoriedad
+	d) confidencialidad
+
+RESPUESTA CORRECTA: C
+
+### 2. ¿ Cual no es una  política de seguridad a nivel físico ?
+	a) tener contraseña para la BIOS y la consola
+	b) crear cuentas de usuario locales .
+	c) un ambiente refrigerado y libre de polvo
+	d) las puertas de acceso deben tener cerradura
+
+RESPUESTA CORRECTA: B
+
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 6:  Asegurar el sistema web" >
+
+<pregunta>
+  <enunciado>¿Cual de los siguientes conceptos no es una bases de los objetivos de seguridad?</enunciado>
+  <opcionA>integridad</opcionA>
+  <opcionB>disponibilidad</opcionB>
+  <opcionC>notoriedad</opcionC>
+  <opcionD>confidencialidad</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿ Cual no es una  política de seguridad a nivel físico ?</enunciado>
+  <opcionA>tener contraseña para la BIOS y la consola</opcionA>
+  <opcionB>crear cuentas de usuario locales</opcionB>
+  <opcionC> un ambiente refrigerado y libre de polvo</opcionC>
+  <opcionD>las puertas de acceso deben tener cerraduralas puertas de acceso deben tener cerradura</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+</tema>
